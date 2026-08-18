@@ -39,9 +39,9 @@ VHDLに見えないコードかと思いますが、VHDLの文法に適合して
 なお、現状では、Quartus Prime Lite 25.1とVivado 2025.2で動作確認しています。
 
 ## 使い方
-libにあるsdmmif.vhdとsdmmif_address_decoder.vhdをQuartus/Vivadoのプロジェクトに入れてください。
-そして、exampleにあるsdmmif_type.vhdに記述されたバス幅を適宜修正してプロジェクトに追加してください。
-バスアクセスのメイン側のモジュールの例がexampleのsdmmif_top.vhd、
-バスアクセスのサブ側のモジュールの例がexampleのsub_1.vhd、sub_2.vhdになります。
-簡単なテストベンチがtb/sdmmif_tb.vhdに置いてあります。
+- libにあるsdmmif.vhdとsdmmif_address_decoder.vhdをQuartus/Vivadoのプロジェクトに入れてください。
+- そして、exampleにあるsdmmif_type.vhdに記述されたバス幅を適宜修正してプロジェクトに追加してください。
+- バスアクセスのメイン側のモジュールの例がexampleのsdmmif_top.vhd、
+  バスアクセスのサブ側のモジュールの例がexampleのsub_1.vhd、sub_2.vhdになります。
+- 簡単なテストベンチがtb/sdmmif_tb.vhdに置いてあります。
 
